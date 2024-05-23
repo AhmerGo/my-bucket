@@ -1,0 +1,19 @@
+{
+  "version": "7.3.33",
+  "description": "PHP 7.3.33",
+  "homepage": "https://www.php.net/",
+  "architecture": {
+    "64bit": {
+      "url": "https://windows.php.net/downloads/releases/php-7.3.33-Win32-VC15-x64.zip",
+      "hash": "b862d1fe8eb44dbff4047266b4ac9a61e00222af3b4f2d49f6d06b085659e439"
+    },
+    "32bit": {
+      "url": "https://windows.php.net/downloads/releases/php-7.3.33-Win32-VC15-x86.zip",
+      "hash": "4d6bc95c6c8a83af0c6b920a16f8a7c36d2a8d9bbd1169d84b6c567f72a3144d"
+    }
+  },
+  "bin": ["php.exe"],
+  "persist": ["conf"],
+  "env_add_path": "bin",
+  "checkver": "7.3.33"
+}
